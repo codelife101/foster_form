@@ -1,0 +1,82 @@
+*{
+margin: 0;
+padding: 0;
+text-decoration: none;
+box-sizing: border-box;
+}
+
+.body{
+    font-family: 'Bree Serif', serif;
+}
+
+
+input,
+label,
+select,
+button,
+textarea
+{
+	margin:0;
+	border:0;
+	padding:0;
+	background:none;
+	line-height:1;
+}
+
+body{
+    background-color: #F9F9DD;
+}
+
+
+/* text-align: center; */
+.logo{
+    
+    margin-top: 5vh;
+    margin-bottom:5vh;
+   width: 80vw;
+   
+}
+
+
+
+
+.formContainer{
+    /* padding-top: 20px; */
+    padding-bottom: 20px;
+    width: 80%;
+    height: 100%;
+    margin: auto;
+}
+
+.formInputs{
+    margin-bottom: 5vh;
+}
+
+.nameInput, .conversationInput,
+.textInput{
+    padding-bottom:3px;
+    border-bottom: 3px solid #ACDCD2;
+    font-family: 'Bree Serif', serif;
+    
+}
+
+textarea{
+    width: 80%;
+    margin:auto;
+}
+
+p, label{
+    font-family: 'Bree Serif', serif;
+    letter-spacing: 2px;
+}
+
+.submitBtn{
+    font-size: 15px;
+    border: 3px solid #F8A28C;
+    padding: 10px;
+    font-family: 'Bree Serif', serif;
+}
+
+.st0{
+    fill: #333;
+}
